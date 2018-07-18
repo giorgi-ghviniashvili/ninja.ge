@@ -1,23 +1,46 @@
 <html>
   <head>
     <style>
-      body {
-        background-image: url('ninja.jpg')
+      body, html {
+          height: 100%;
+          margin: 0;
+          font: 400 15px/1.8 Helvetica, "Lato", sans-serif;
+          color: #2C3E50;
       }
-      .message {
-        position: absolute;
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        color: #bec1c6;
-        margin-top: 80px;
-        margin-left: 80px;
+      .bgimg-1 {
+          position: relative;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      .bgimg-1 {
+          background-image: url("./ninja.jpg");
+          min-height: 100%;
+      }
+
+      .caption {
+          position: absolute;
+          right: 0;
+          top: 10px;
+          width: 100%;
+          text-align: left;
+          color: #fff;
+      }
+
+      .caption h2 {
+          color: #bec1c6;
+          padding-left: 60px;
+          padding-top: 40px;
+          margin: 0px;
       }
     </style>
   </head>
   <body>
-    <div class="message">
-      Under Construction
+    <div class="bgimg-1">
+        <div class="caption">
+          <h2>Under Construction</h2>
+        </div>
     </div>
   </body>
 </html>
